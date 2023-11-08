@@ -72,8 +72,8 @@ fun AnimationExample() {
 
         AnimatedVisibility(
             visible,
-            enter = fadeIn() ,
-            exit = fadeOut()
+            enter = expandVertically() ,
+            exit = shrinkVertically()
         ) {
             Image(
                 modifier = Modifier
